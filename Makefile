@@ -59,8 +59,8 @@ $(EXEC): $(OBJCU) $(OBJCPP)
 .PHONY: clean
 clean:
 	@echo "Cleaning .o files ..."
-	@rm -f $(OBJCU)
-	@rm -f $(OBJCPP)
+	@rm -f $(OBJCU) $(OBJCPP)
+	@rm *.a *.so *~
 	@echo "...done"
 
 

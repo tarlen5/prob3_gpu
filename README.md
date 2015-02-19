@@ -1,2 +1,2 @@
 # prob3_gpu
-Prob3++ code implemented on a gpu to do smoothed calculations on a grid with coszen/energy. 
+Prob3++ code implemented on a gpu to do probability calculations on a high reslution grid with coszen, energy axes.
